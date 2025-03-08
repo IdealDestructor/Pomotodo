@@ -1,1 +1,82 @@
-<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>POMOTODO</title><script defer="defer" src="js/chunk-vendors.ce5b4688.js"></script><script defer="defer" src="js/index.fbe566a1.js"></script><link href="css/chunk-vendors.9ce6046f.css" rel="stylesheet"><link href="css/index.31774622.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but POMOTODO doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
+    <title>POMOTODO</title>
+    <style>
+      .cute-title {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 40px 0 0px 0;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        letter-spacing: 0px;
+      }
+      .cute-title span:nth-child(1) {
+        color: #ff6b6b;
+      } /* 红色 */
+      .cute-title span:nth-child(2) {
+        color: #ff9e4f;
+      } /* 橙色 */
+      .cute-title span:nth-child(3) {
+        color: #ffd93d;
+      } /* 黄色 */
+      .cute-title span:nth-child(4) {
+        color: #6bcb77;
+      } /* 绿色 */
+      .cute-title span:nth-child(5) {
+        color: #4d96ff;
+      } /* 蓝色 */
+      .cute-title span:nth-child(6) {
+        color: #9b72aa;
+      } /* 紫色 */
+      .cute-title span:nth-child(7) {
+        color: #ff6b6b;
+      } /* 红色 */
+      .cute-title span:nth-child(8) {
+        color: #ff9e4f;
+      } /* 橙色 */
+      .cute-title span {
+        display: inline-block;
+        animation: bounce 2s infinite alternate;
+        animation-delay: calc(0.1s * var(--i));
+        transform-origin: bottom;
+      }
+      @keyframes bounce {
+        0% {
+          transform: translateY(0) scale(1);
+        }
+        100% {
+          transform: translateY(-10px) scale(1.1);
+        }
+      }
+    </style>
+    <script defer="defer" src="js/chunk-vendors.ce5b4688.js"></script>
+    <script defer="defer" src="js/index.fbe566a1.js"></script>
+    <link href="css/chunk-vendors.9ce6046f.css" rel="stylesheet" />
+    <link href="css/index.31774622.css" rel="stylesheet" />
+  </head>
+  <body>
+    <noscript
+      ><strong
+        >We're sorry but POMOTODO doesn't work properly without JavaScript
+        enabled. Please enable it to continue.</strong
+      ></noscript
+    >
+    <h1 class="cute-title">
+      <span style="--i: 1">P</span>
+      <span style="--i: 2">o</span>
+      <span style="--i: 3">m</span>
+      <span style="--i: 4">o</span>
+      <span style="--i: 5">t</span>
+      <span style="--i: 6">o</span>
+      <span style="--i: 7">d</span>
+      <span style="--i: 8">o</span>
+    </h1>
+    <div id="app"></div>
+  </body>
+</html>
