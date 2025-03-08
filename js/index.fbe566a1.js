@@ -28,7 +28,7 @@
                         staticStyle: { "text-decoration": "none" },
                         attrs: { to: "/tomato" },
                       },
-                      [e._v("番茄钟 🍅")]
+                      [e._v("🍅 番茄钟")]
                     ),
                   ],
                   1
