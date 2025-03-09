@@ -52,7 +52,7 @@ nav {
     Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif,
     "Comic Sans MS", cursive, sans-serif;
   /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); */
-  letter-spacing: 0px;
+  letter-spacing: 2px;
 }
 .cute-title span:nth-child(1) {
   color: #ff6b6b;
