@@ -117,11 +117,26 @@ export default {
 };
 </script>
 <style scoped>
+.tomato {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 172px);
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 #timer {
   display: flex;
-  height: 70vh;
+  flex: 1;
   justify-content: center;
   align-items: center;
   font-size: 8rem;
+}
+
+#element {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 </style>
